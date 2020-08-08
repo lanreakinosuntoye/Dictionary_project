@@ -18,7 +18,7 @@ def definition(word):
     else:
         return "This word does not exist "
 
-word = input("Enter new word: ")
+word = input("Enter new word: ") #the input statement that takes in word from the user
 
 
 output = (definition(word))
